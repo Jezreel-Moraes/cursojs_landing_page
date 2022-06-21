@@ -1,0 +1,17 @@
+#footer {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+#footer a {
+  color: var(--primary-color);
+}
+
+#footer .heart {
+  color: var(--secondary-color);
+}
+
+#footer p {
+  padding: 3rem;
+  margin: 0;
+}

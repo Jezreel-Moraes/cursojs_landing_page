@@ -100,7 +100,7 @@
 }
 
 .form-group {
-  flex: 1 1 320px;
+  flex: 1 1 32rem;
 }
 
 .form-group label {
@@ -158,7 +158,7 @@
   transform: rotate(-90deg);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 80rem) {
   .presentation-content,
   .grid-content-grid {
     grid-template-columns: 1fr;
@@ -225,5 +225,11 @@
 
   .full-width button {
     width: 100%;
+  }
+}
+
+@media (max-width: 39rem) {
+  h2 {
+    font-size: 10vw;
   }
 }
